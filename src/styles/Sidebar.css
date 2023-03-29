@@ -1,0 +1,23 @@
+.item {
+  background: #f8fafd;
+  border-radius: 4px;
+  height: 92px;
+  margin-top: 15px;
+}
+
+.item i{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.item i:first-child{
+    color: #75828A;
+}
+
+.item i:last-child{
+    color: #FF6231;
+}
+
+.info p{
+    color: #757881;
+}

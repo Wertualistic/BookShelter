@@ -1,0 +1,90 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+html::-webkit-scrollbar{
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main{
+        width: 60%;
+        height: 400vh;
+    }
+    .sidebar{
+        width: 40% !important;
+    }
+
+    .cardItem{
+        width: 100%;
+    }
+
+    .top{
+        width: 100%;
+    }
+
+    .nav_logo img{
+        width: 150px;
+    }
+
+    nav .searchBar{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .sidebar{
+        display: none;
+    }
+    .main{
+        width: 100%;
+    }
+    nav{
+        padding: 0 !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav_logo img{
+        width: 120px;
+    }
+    nav .searchBar{
+        margin-left: 0px;
+    }
+    nav .input{
+        width: 100%;
+    }
+    .ri-sun-fill{
+        display: none;
+    }
+    .main{
+        height: 700vh;
+    }
+    .cardItem{
+        width: 100%;
+    }
+
+    .top{
+        width: 100%;
+    }
+    .cardItem img{
+        margin-top: 800px;
+    }
+
+    .btnSm{
+        left: 0 !important;
+    }
+    .OrderByNewest{
+        margin: 0 !important;
+        padding: 10px 0 !important;
+        justify-content: space-between !important;
+    }
+    .ByNewest{
+        width: 100% !important;
+    }
+}

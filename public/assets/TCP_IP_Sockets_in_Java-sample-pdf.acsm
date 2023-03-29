@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fulfillmentToken fulfillmentType="buy" xmlns="http://ns.adobe.com/adept">
+    <distributor>urn:uuid:00000000-0000-0000-0000-000000000001</distributor>
+    <operatorURL>http://books.google.com/books/acs4/fulfillment</operatorURL>
+    <expiration>2023-03-29T00:49:32-07:00</expiration>
+    <transaction>ge:b1883f3c-d025-7b57-9363-ac27cfc8d8d5:1680075272392404</transaction>
+    <resourceItemInfo>
+        <resource>urn:uuid:b1883f3c-d025-7b57-9363-ac27cfc8d8d5</resource>
+        <resourceItem>1</resourceItem>
+        <src>https://books.google.co.uz/books/download/TCP_IP_Sockets_in_Java.pdf?acsid=urn:uuid:b1883f3c-d025-7b57-9363-ac27cfc8d8d5&amp;output=acs4_book_bytes&amp;dl_type=sample&amp;ar=a183d0a6116fedff6d76cb45b2cf5290</src>
+        <downloadType>simple</downloadType>
+    </resourceItemInfo>
+    <hmac>SHFLILUdogkoGkPC1ZpZWSOcURk=</hmac>
+</fulfillmentToken>

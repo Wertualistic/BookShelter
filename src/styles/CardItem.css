@@ -1,0 +1,83 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.top {
+  width: 740px;
+  position: fixed;
+  top: 0;
+  right: -65px;
+  background: #f8fafd;
+  padding: 20px 20px;
+  margin: 0 80px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.wrapper img {
+  width: 228px;
+  height: 299px;
+  margin-top: 500px;
+  margin-bottom: 40px;
+}
+
+.top i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cardItem {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-bottom: 130px;
+  height: 100vh;
+  width: 50%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.aboutBook h6 {
+  color: #222531;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.aboutBook p {
+  color: #0d75ff;
+  font-size: 14px;
+  font-weight: 400;
+  width: 171px;
+  height: 30px;
+  background: rgba(13, 117, 255, 0.09);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.wrapper .btnSm {
+  position: relative;
+  top: 150px;
+  left: 300px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  width: 230%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.wrapper button {
+  width: 112px;
+}
